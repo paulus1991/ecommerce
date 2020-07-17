@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { Hashrouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import { ProductProvider } from './context';
 
 ReactDOM.render(
-	<Router>
+	<Router basename="/ecommerce">
 	<ProductProvider>
 		
 			<React.StrictMode>
