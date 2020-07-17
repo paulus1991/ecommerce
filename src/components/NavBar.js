@@ -14,7 +14,7 @@ export default class NavBar extends React.Component {
 					<Link to="/">
 						<img src={logo} alt="store" className="navbar-brand" />
 					</Link>
-<Link to="/products">Shop</Link>
+
 					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 					<Navbar.Collapse id="responsive-navbar-nav">
 						<Nav className="mr-auto">
