@@ -14,11 +14,11 @@ export default class NavBar extends React.Component {
 					<Link to="/">
 						<img src={logo} alt="store" className="navbar-brand" />
 					</Link>
-
+<Link to="/products">Shop</Link>
 					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 					<Navbar.Collapse id="responsive-navbar-nav">
 						<Nav className="mr-auto">
-							<Link to="/products">Shop</Link>
+							
 							<Nav.Link href="/orders">Orders</Nav.Link>
 
 							<NavDropdown title="Segments" id="collasible-nav-dropdown">
