@@ -8,7 +8,7 @@ import { ProductProvider } from './context';
 
 ReactDOM.render(
 	<ProductProvider>
-		<Router basename={process.env.PUBLIC_URL}>
+		<Router>
 			<React.StrictMode>
 				<App />
 			</React.StrictMode>
