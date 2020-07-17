@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import { ProductProvider } from './context';
 
 ReactDOM.render(
-	<Router basename="/ecommerce">
+	<Router >
 	<ProductProvider>
 		
 			<React.StrictMode>
