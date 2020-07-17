@@ -7,13 +7,15 @@ import * as serviceWorker from './serviceWorker';
 import { ProductProvider } from './context';
 
 ReactDOM.render(
+	<Router>
 	<ProductProvider>
-		<Router>
+		
 			<React.StrictMode>
 				<App />
 			</React.StrictMode>
+		</ProductProvider>
 		</Router>
-	</ProductProvider>,
+,
 	document.getElementById('root')
 );
 
